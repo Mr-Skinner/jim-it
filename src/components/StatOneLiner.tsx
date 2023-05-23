@@ -2,7 +2,7 @@ import Image from "next/image";
 import upArrow from "src/assets/arrow-up.svg";
 import downArrow from "src/assets/arrow-down.svg";
 
-interface OneLineStatProps {
+type OneLineStatProps = {
   title: string;
   data: string;
   upDown: string;
